@@ -14,7 +14,7 @@ const Footer = () => {
 							<div className="mb-12 max-w-[360px] lg:mb-16">
 								<Link href="/" className="mb-8 inline-block">
 									<h1 className="text-2xl font-bold">
-										Twib<span className="text-primary">Bomb</span>
+										Twi<span className="text-primary">Bomb</span>
 									</h1>
 								</Link>
 								<p className="mb-9 text-base font-medium leading-relaxed text-body-color">

@@ -53,7 +53,7 @@ const Header = () => {
                   sticky ? "py-5 lg:py-2" : "py-8"
                 } `}
               >
-                <h1 className="text-2xl font-bold">Twib<span className="text-primary">Bomb</span></h1>
+                <h1 className="text-2xl font-bold">Twi<span className="text-primary">Bomb</span></h1>
               </Link>
             </div>
             <div className="flex w-full items-center justify-between px-4">

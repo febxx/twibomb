@@ -52,10 +52,10 @@ const SlugPage = () => {
               <h3 className="mb-3 text-center text-2xl font-bold text-black dark:text-white sm:text-3xl">
                 {item.title}
               </h3>
-              <p className="mb-11 text-center text-base font-medium text-body-color">
+              <p className="mb-5 text-center text-base font-medium text-body-color">
                 {item.creator}
               </p>
-              <div className="mx-auto max-w-[550px] rounded-md bg-primary bg-opacity-5 dark:bg-dark pt-3"> {/* py-10 px-6 sm:p-[60px] */}
+              <div className="mx-auto max-w-[550px] rounded-md bg-primary bg-opacity-5 dark:bg-dark py-3"> {/* py-10 px-6 sm:p-[60px] */}
                 <Form data={item}></Form>
               </div>
             </div>
