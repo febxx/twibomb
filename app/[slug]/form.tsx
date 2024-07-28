@@ -2,7 +2,7 @@ import { useTwibbonCanvas } from "@/hooks/useTwibbonCanvas";
 import { useEffect, useState } from "react";
 import Canvas from "./canvas";
 import { FaFileImage } from "react-icons/fa";
-import { FaCopy, FaDownload } from "react-icons/fa6";
+import { FaCircleMinus, FaCirclePlus, FaDownload } from "react-icons/fa6";
 
 interface Props {
   data: {
@@ -53,10 +53,10 @@ export default function Form({ data }: Readonly<Props>) {
       </div>
       <div className="flex flex-row items-center justify-center">
         <button
-          className="rounded-full bg-primary py-2 px-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
+          className="rounded-full bg-primary p-3 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
           onClick={() => setScale((prev) => prev - 0.01)}
         >
-          -
+          <FaCircleMinus className="text-xl" />
         </button>
         <input
           id="zoom"
@@ -71,10 +71,10 @@ export default function Form({ data }: Readonly<Props>) {
           className="bg-primary hover:bg-primary/80 !w-[10rem] md:!w-[15rem] mx-2"
         />
         <button
-          className="rounded-full bg-primary py-2 px-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
+          className="rounded-full bg-primary p-3 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
           onClick={() => setScale((prev) => prev + 0.01)}
         >
-          +
+          <FaCirclePlus className="text-xl" />
         </button>
       </div>
       <div className="flex flex-row items-center justify-around">
