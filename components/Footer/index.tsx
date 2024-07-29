@@ -200,7 +200,7 @@ const Footer = () => {
 							Template by UIdeck
 						</p>
 						<p className="text-center text-base text-body-color dark:text-white">
-              Developed with ❤️ by febxx
+              Created with ❤️ by <a href="https://t.me/febxx">@febxx</a>
 						</p>
 					</div>
 				</div>
