@@ -18,6 +18,12 @@ const SlugPage = () => {
       creator: "@febxx",
       image: "/images/template/Kata X 2nd Tourney.png",
     },
+    {
+      title: "Kata X: 3rd Tourney",
+      slug: "katax-3rd-tourney",
+      creator: "@febxx",
+      image: "/images/template/Kata X 3rd Tourney.png",
+    },
   ];
 
   const item = items.find((item) => item.slug === slug);
